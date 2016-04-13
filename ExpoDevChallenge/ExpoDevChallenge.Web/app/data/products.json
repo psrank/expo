@@ -1,0 +1,8 @@
+[
+{"id": "1", "productname": "Small wongle", "supplier": "New Co Ltd", "price": 5},
+{"id": "2", "productname": "Large wongle", "supplier": "New Co Ltd", "price": 8},
+{"id": "3", "productname": "Super wongle", "supplier": "New Co Ltd", "price": 12},
+{"id": "4", "productname": "Small wongle", "supplier": "Old Co Ltd", "price": 6},
+{"id": "5","productname": "Large wongle", "supplier": "Old Co Ltd", "price": 9},
+{"id": "6", "productname": "Super wongle", "supplier": "Old Co Ltd","price": 4}
+]
