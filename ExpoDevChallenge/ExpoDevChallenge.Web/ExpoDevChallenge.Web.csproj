@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D800F6A4-2A8C-494D-B7FA-99A8CC152C31}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ExpoDevChallenge.Web</RootNamespace>
     <AssemblyName>ExpoDevChallenge.Web</AssemblyName>
@@ -32,6 +32,73 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="app\app.component.css" />
+    <Content Include="app\app.component.js" />
+    <Content Include="app\help\help.component.js" />
+    <Content Include="app\home\home.component.js" />
+    <Content Include="app\home\product-details.component.js" />
+    <Content Include="app\home\product-pricing.component.js" />
+    <Content Include="app\interfaces\productCategory.js" />
+    <Content Include="app\interfaces\productSupplier.js" />
+    <Content Include="app\interfaces\supplier.js" />
+    <Content Include="app\main.js" />
+    <Content Include="app\profile\profile.component.js" />
+    <Content Include="app\services\product-categories.service.js" />
+    <Content Include="app\services\products-suppliers.service.js" />
+    <Content Include="app\services\suppliers.service.js" />
+    <Content Include="app\settings\settings.component.js" />
+    <Content Include="bs-config.js" />
+    <Content Include="img\expo-e-logo-white.png" />
+    <Content Include="index.html" />
+    <Content Include="indexOld.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".bowerrc" />
+    <None Include="app\app.component.js.map" />
+    <None Include="app\data\products.json" />
+    <None Include="app\help\help.component.js.map" />
+    <None Include="app\home\home.component.js.map" />
+    <None Include="app\home\product-details.component.js.map" />
+    <None Include="app\home\product-pricing.component.js.map" />
+    <None Include="app\interfaces\productCategory.js.map" />
+    <None Include="app\interfaces\productSupplier.js.map" />
+    <None Include="app\interfaces\supplier.js.map" />
+    <None Include="app\main.js.map" />
+    <None Include="app\profile\profile.component.js.map" />
+    <None Include="app\services\product-categories.service.js.map" />
+    <None Include="app\services\products-suppliers.service.js.map" />
+    <None Include="app\services\suppliers.service.js.map" />
+    <None Include="app\settings\settings.component.js.map" />
+    <None Include="bower.json" />
+    <None Include="ExpoDevChallenge.Web.csproj.DotSettings" />
+    <None Include="package.json" />
+    <None Include="tsconfig.json" />
+    <None Include="typings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="app\app.component.ts" />
+    <TypeScriptCompile Include="app\help\help.component.ts" />
+    <TypeScriptCompile Include="app\home\home.component.ts" />
+    <TypeScriptCompile Include="app\home\product-details.component.ts" />
+    <TypeScriptCompile Include="app\home\product-pricing.component.ts" />
+    <TypeScriptCompile Include="app\interfaces\productCategory.ts" />
+    <TypeScriptCompile Include="app\interfaces\productSupplier.ts" />
+    <TypeScriptCompile Include="app\interfaces\supplier.ts" />
+    <TypeScriptCompile Include="app\main.ts" />
+    <TypeScriptCompile Include="app\profile\profile.component.ts" />
+    <TypeScriptCompile Include="app\services\product-categories.service.ts" />
+    <TypeScriptCompile Include="app\services\products-suppliers.service.ts" />
+    <TypeScriptCompile Include="app\services\suppliers.service.ts" />
+    <TypeScriptCompile Include="app\settings\settings.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lib\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
